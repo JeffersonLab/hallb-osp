@@ -54,7 +54,7 @@ IX. HPS [S.S.]
 To update the document, clone the github directory and recompile the latex 
 (if you know what section you editted last time, likely you just need to do it again adding a checklist)
 
-http://github.com/orgs/JeffersonLab/hallb-osp/
+http://github.com/JeffersonLab/hallb-osp/
 
 All materials should be in LaTeX, images preferably in eps.
 
