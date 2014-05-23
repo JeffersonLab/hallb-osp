@@ -1,0 +1,36 @@
+%--- Description of components
+
+\infolevone{
+\chapter[CLAS12 Offline Analysis]{CLAS12 Offline Analysis}
+\footnote{Author: V. Ziegler \email{ziegler@jlab.org}}
+
+The standard offline analysis software for Hall B data is ....
+
+
+
+The XXX code performs tracking in the focal plane and reconstruction to the
+target. The tracking algorithm has been shown to be accurate for events 
+with one cluster per plane. Noisy events with higher cluster multiplicity
+and events with more than one good track in the focal plane may not be
+reconstructed correctly by the present version of the code, but work is in
+progress to make this type of analysis also reliable.
+
+The scintillator, Cherenkov, and shower counters classes perform basic decoding,
+calibration (offset/pedestal subtraction, gain multiplication), and summing 
+(for Cherenkovs) or cluster-finding (for showers) of hits. 
+The cluster-finding algorithm of the shower class is basic and currently 
+only capable of finding a single cluster per event. These classes are largely
+generic and should be able to accommodate most new detectors of the respective 
+type, even with a different geometry and number of channels.
+
+Data of interest can be histogrammed and/or written to
+a ROOT Tree in the output file.  The contents of the output
+is defined dynamically at the beginning of the analysis.
+Both 1- and 2-dimensional histograms are supported. Histograms
+can be filled selectively using logical expressions (cuts).
+
+} %end \infolevone
+
+\infolevfour{
+Table XXX lists the analysis modules available
+} 

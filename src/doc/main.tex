@@ -1,0 +1,79 @@
+\documentclass[12pt,letterpaper]{article} 
+
+\input{preamb_common} % include the common preambule 
+\input{namesenv}
+
+\newcommand{\myil}[0]{{\color{red}{\em infolevel}}}
+
+% \newcommand{\Cerenkov}{\v{C}erenkov} 
+\newcommand{\Cerenkov}{Cherenkov} 
+\parindent=2em 
+\hyphenation{cebaf} 
+
+\begin{document}
+\color{\Mcol}
+\pagestyle{headings}
+
+% \pagestyle{empty}
+\hypersetup{pageanchor=false}
+\begin{titlepage}
+\title{{\bf OSP Instructions for Contributors}}
+
+\author{} 
+\setcounter{tocdepth}{3}
+\end{titlepage} 
+\maketitle 
+\hypersetup{pageanchor=true}
+ 
+% \pagenumbering{arabic} 
+% \setcounter{page}{1} 
+\tableofcontents
+
+%\listoftables
+
+%\listoffigures
+\input{people/names} % list of names
+
+\section{Introduction}
+\label{sec:intro}
+
+  The Hall B\cite{Hallbwww} OSP (Operation Safety Procedures) document describes  
+  the systems, devices and procedures used in Hall B, containing
+  the safety issues. The systems include the base equipment and some additional components in use.
+
+  Many Hall B collaboration members contributed to the Operating Safety 
+  Procedures (OSP) document. 
+
+\section{OSP Document Source}
+\label{sec:document}
+   
+\subsection{Document Format}
+\label{sec:format}   
+
+  The source document is in \LaTeX{} format.
+  The output OSP document is available in two formats: 
+  \begin{list}{$\bullet$}{\setlength{\itemsep}{-0.15cm}}
+    \item ~PDF, produced with \mycomp{pdflatex} command; 
+    \item HTML, produced with \mycomp{latex2html} command (this has not been used for a long
+          time and is basically deprecated). 
+  \end{list}
+  This makes certain requirements to the source document,
+  since both \mycomp{pdflatex} and \mycomp{latex2html} have their own
+  peculiarities.
+
+\subsection{Obtaining the Source Package}
+\label{sec:obtain}
+
+ The source package contains the source of the text, 
+ the pictures and tools to make the document.
+  The repository is located at JLab github at:\href{https://github.com/JeffersonLab/hallb-osp}.
+
+\subsection{Making the OSP Document}
+\label{sec:make}
+
+  In order to produce a document type doit in the hallb-osp directory created by 
+commanline
+\> git clone https://github.com/JeffersonLab/hallb-osp
+
+\end{document} 
+ 

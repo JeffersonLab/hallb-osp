@@ -1,0 +1,260 @@
+\infolevone{
+\chapter[Spectrometer Data Acquisition]{Spectrometer Data Acquisition
+\footnote{Authors: S.Boyarinov \email{boiarino@jlab.org}}
+}
+
+
+\par
+The Hall B data acquisition uses CODA\cite{CODAwww}
+(CEBAF Online Data Acquisition), a toolkit
+developed at Jefferson Lab by the Data
+Acquisition Group. 
+%For general information
+%about CODA, see the 
+%CODA site\htmladdnormallinkfoot{}{\url{http://coda.jlab.org/}}.
+Up to date information about the Hall B DAQ
+is kept at 
+\htmladdnormallinkfoot{}{\url{http://clasweb.jlab.org/equipment/daq/daq_trig.html}}.
+
+\par
+We typically run with ......
+
+\par
+The trigger supervisor is a custom--made
+module built by the data
+acquisition group.  Its functions are to
+synchronize the readout crates, to administer
+the deadtime logic of the entire system, and
+to prescale various trigger inputs.  
+We have a trigger supervisor...
+
+\par
+
+The trigger management software is  described in
+the Trigger chapter. 
+
+
+\infolevtwo{
+
+\section{General Computer Information}
+
+\par
+In the counting room we have various computers 
+for DAQ, analysis, and controls.  The controls
+subnet is the responsibility of .....
+
+\section{DAQ checklist}
+Things to check before experiment starts
+\begin{enumerate}
+\item .......
+\item raster cabling
+\item check portservers
+\item check reset
+\item check trigger latch is connected
+\item helicity if needed
+\item scalers
+\item synchronization time stamp
+\end{enumerate}
+
+\section{Beginning of Experiment Checkout}
+
+\par
+This section describes the 
+checkout of DAQ and trigger
+needed before an experiment can start.
+
+\begin{enumerate}
+\item{First ensure that all the fastbus, VME,
+CAMAC, and NIM crates are powered
+on. 
+
+\item{Make sure the HV is on for all detectors
+and that the values are normal.}
+
+\item{Start the scalers}
+display following the instructions below and
+check that the rates from detectors are normal.}
+ 
+\item{Startup CODA using the directions below
+and start a run.  With the trigger downloaded
+and the HV on, you are taking cosmics data, typically at 
+a rate of 3 Hz per spectrometer. }
+
+\end{enumerate}
+
+\section{Running CODA}
+
+\par
+This section describes how to run CODA for
+the CLAS12 DAQ.  
+
+
+\par
+
+Here is how to start and stop a run.
+Normally, when you come on shift, 
+runcontrol will be running.  If not,
+see the section on ``Cold Start'' below.
+To start and stop runs, push the buttons
+``Start Run'' and ``End Run'' in the
+runcontrol GUI.   To change configurations
+use the ``Run Type'' button.  If you have
+been running you will first have to push the
+``Abort'' button before you can change the 
+run type. Typically the configurations
+you want are the following.
+
+\par 
+A note about pedestal runs.  They have the exclusive
+purpose of obtaining pedestals used for pedestal
+suppression.  For details about what is done
+and hints for getting pedestals for analysis (which
+does not want the PEDRUN result), see \mycomp{/ped/README}.
+
+}
+
+\infolevthree{
+
+\subsection{
+ Some Frequently Asked Questions about DAQ}
+
+
+\begin{itemize} 
+\item{ {\it Q: Where is the data ?} \hskip 0.05in  
+Use a command ....
+
+
+Files are archived automatically to tape in the MSS
+tape silo.  Two tape copies are made.  Data are
+purged from disk automatically.  Users should
+{\it never} attempt to copy, move, or erase data.}
+
+\item{ {\it Q: How to adjust prescale factors ? } 
+\hskip 0.05in
+Edit the file .....
+}
+
+\item{ {\it Q: What is the deadtime ? } \hskip 0.05in
+The deadtime is displayed in ....
+}
+
+\item{ {\it Q: Where are the crates ?} \hskip 0.05in
+Fastbus crates ROCXXX are ...
+}
+
+\item{ {\it Q: Why is the deadtime so high ?  
+(and related)} \hskip 0.1in
+Search for answers among the following....
+}
+
+\end{itemize}
+
+\subsection{ Quick Resets }
+
+Problems with CODA can usually be solved with a simple
+reset.  If not, try a Cold Start (see next section).
+Do not waste an hour of beam time on resets; 
+if they fail, call an expert.  
+The expert claims he can restart CODA 
+90\% of the time within 10 minutes.
+
+If a ROC (ReadOut Controller, or crate)
+is hung up, reboot by going the workspace
+``Components'' and typing ......  If this 
+doesn't work, try pressing the reset button 
+which is on the ``Crate Resets'' section of the
+
+\subsection{ Cold Start of CODA}
+
+\par
+If CODA is not running, or if it gets hung up,
+you can do a cold start.  Frequently a subset of
+these steps is sufficient to recover from a hangup,
+but it takes some experience to realize the
+minimum of steps that
+are necessary, so the simplest 
+thing is to do them all, which takes a few minutes.
+
+\begin{itemize}
+\item{Make sure the fastbus and VME crates are
+running.  The crates are usually known by .....
+ }
+\item{ Start runcontrol and the other necessary
+processes by typing ......}
+\item{ In runcontrol,
+press the ``Connect'' button.  
+Wait 5 seconds and press ``Run Types''.  
+After configure and before download, 
+press the ``Reset'' button in the upper left corner.
+Choose the run type from the dialog box
+(see section on Running
+CODA for descriptions of run types).}
+\item{ After you configure and download the Run Type,
+you can ``Start Run'' to start a new run.}
+
+
+\end{itemize}
+
+
+\subsection{ Recovering from a Reboot of Workstation}
+
+If the workstation from which you are running CODA
+was rebooted, here is how to recover DAQ.
+Login as the relevant account, which is usually
+a-onl for 1-DAQ operation. Passwords for the online
+accounts should be available on a paper on the wall
+in the counting room, or ask the run coordinator.
+In the workspace for ``Components'' telnet into
+all the ROCs.  If the x-terms windows are not 
+available, type ......
+}
+
+\infolevone{
+
+\section{Electronic Logbook and Beam Accounting}
+
+Two tools are available for logging information
+by the shift workers: \hskip 0.05in
+(1) The Electronic Logbook, and
+\hskip 0.05in
+(2) The Hall Beam--Time Accounting Table.
+
+\par
+The electronic logbook is a web-based
+repository of logbook data. 
+
+\par 
+The Hall Beam--Time Accounting Table is the mechanism
+to summarize and record
+how the beam time in a shift was spent.  
+The shift leader is responsible for
+submitting this table at the end of the shift.
+When submitted, the data are 
+logged in a database
+and a summary is e-mailed to various people like the
+run coordinators and the hall leader.
+}
+
+\infolevltone{\newpage}
+\begin{safetyen}{10}{15}
+\section{Authorized  Personnel} 
+\end{safetyen}
+The authorized personnel is shown in table \ref{tab:daq:personnel}.
+\begin{namestab}{tab:daq:personnel}{DAQ: authorized personnel}{%
+      DAQ: authorized personnel.}
+  \SergeiBoiarinov{\em Contact, first on call}
+\end{namestab}
+
+\infolevthree{
+\begin{table}[htp]
+\centering
+\begin{tabular}{|l|l|l|}  \hline
+server IP &  Port & Device \\ \hline
+\hline
+\end{tabular}
+\caption[Data Acquisition: Port Servers for DAQ]{
+Port Servers for DAQ}
+\label{tab:daq:portservers}
+\end{table}
+} %infolev
+} 

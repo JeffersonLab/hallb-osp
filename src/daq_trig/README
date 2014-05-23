@@ -1,0 +1,13 @@
+ Files needed for the Hall B OPS Manual chapter on DAQ and
+ Trigger are the following.  
+
+    1. daq.tex   (the latex file)
+    2. strig.pdf     (pdf figure)
+ 
+ The file daq.tex compiles "as is".  But to incorporate
+ it into a larger tex file one must comment out the stuff
+ at the top (up to \begin{document}) and also the line at
+ the end (\end {document})
+
+
+ 

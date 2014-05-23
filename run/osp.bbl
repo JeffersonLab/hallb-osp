@@ -1,0 +1,35 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+
+\bibitem{EPICSwww}
+{EPICS Documentation}.
+\newblock WWW page.
+\newblock URL \url{http://www.epics.org/}.
+\newblock see also
+  \url{http://www.aps.anl.gov/asd/controls/epics/EpicsDocumentation/WWWPages/E%
+picsDoc.html}.
+
+\bibitem{EHScebaf}
+JLab.
+\newblock {\em EH\&S Manual}.
+\newblock URL \url{http://www.jlab.org/ehs/ehsmanual/}.
+
+\bibitem{PSScebaf}
+JLab.
+\newblock {\em Personnel Safety System (PSS) manual}.
+\newblock URL \url{http://www.jlab.org/accel/ssg/user_info.html}.
+
+\bibitem{AODcebaf}
+{\em Accelerator Operations Directive}.
+\newblock URL
+  \url{http://opsntsrv.acc.jlab.org/ops_docs/online_document_files/ACC_online_%
+files/accel_ops_directives.pdf}.
+\newblock {\it{\small URL is available inside JLab site}}.
+
+\bibitem{inst:JLab}
+{Jefferson Lab}, (12000 Jefferson avenue, Newport News, VA 23606).
+\newblock URL \url{http://www.jlab.org}.
+\newblock {Telephone numbers: (757)-269-XXXX, Pager numbers: (757)-584-XXXX}.
+
+\end{thebibliography}

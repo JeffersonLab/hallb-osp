@@ -1,0 +1,79 @@
+\infolevone{
+\chapter[Overview]{Overview
+\footnote{Authors: K. Livingston \email{kliv@jlab.org}}
+}
+\label{chap:controls}
+
+The basic components of the system are:
+\begin{itemize}
+\item Input/Output Controllers (IOCs) - VME systems 
+\item Operator Interfaces (OPI) - Computers capable of executing
+EPICS tools to interact with the IOCs.
+Some of the most used tools in Hall B are 
+ StripTools allowing to monitor 
+the behavior of one or more signals as a function of time. 
+\end{itemize}
+
+\infolevtwo{
+\section{System's Components}
+The tasks assigned to the various IOCs are,
+
+\vspace{\parskip}
+
+\begin{tabular}{r p{12.0cm}}
+ioch-l & Beam current/position monitors.\\[0.5ex]
+ioch-2 & Beam helicity asymmetry.....\\[0.5ex]
+\end{tabular}
+}
+
+\infolevthree{
+\section{Operating Procedures}
+Log into the Hall B control system through one of
+the computers....
+
+To start any of these applications, use ......
+
+
+\section{AlarmHandler}
+The ``AlarmHandler'' notifies the user when either a signal being monitored
+is outside some pre-defined limits or
+communication with the IOC in which the signal resides has been lost.
+``AlarmHandler'' will only detect an abnormal signal condition if
+the signal is included in the application configuration file
+and, the corresponding IOC database record is set to produce an alarm condition.
+
+\section{StripTool}
+Strip Tool plots a real-time strip chart of the values of one or more signals.
+It is useful to monitor data trends.
+A detail description of the options and operation
+of this application can be found in the Strip Tool Users
+Guide\htmladdnormallinkfoot{}{\url{http://www.aps.anl.gov/epics/extensions/StripTool/index.php}}
+with one difference; the version used by Hall A does not have a ``print'' function.
+To print a strip chart use the application ``Snapshot'' described below.
+
+\section{Snapshot}
+Snapshot refers to a KDE desktop application (ksnapshot) which allows to grab an image
+of either the whole
+screen or an individual window. The image can then be sent to a printer or stored on disk.
+
+\section{Troubleshooting Procedures}
+The status of most IOCs can be seen
+by opening the ....
+
+Rebooting of the IOCs is accomplished in several ways
+depending on the specific IOC. 
+} %infolev
+
+\infolevltone{\newpage}
+\begin{safetyen}{10}{15}
+\subsection{Authorized  Personnel} 
+\end{safetyen}
+The authorized personnel is shown in table \ref{tab:ctrl:personnel}.
+\begin{namestab}{tab:ctrl:personnel}{Slow controls: authorized personnel}{%
+      Slow controls: authorized personnel.}
+  \KenLivingston{}
+\end{namestab}
+
+
+}
+

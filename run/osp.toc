@@ -1,0 +1,38 @@
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
+\contentsline {chapter}{\numberline {2}General Hazards}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Radiation}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}Fire}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Electrical Systems}{5}{section.2.3}
+\contentsline {section}{\numberline {2.4}Mechanical Systems}{5}{section.2.4}
+\contentsline {section}{\numberline {2.5}Strong Magnetic Fields}{5}{section.2.5}
+\contentsline {section}{\numberline {2.6}Cryogenic Fluids and Oxygen Deficiency Hazard}{5}{section.2.6}
+\contentsline {section}{\numberline {2.7}Vacuum and Pressure Vessels}{6}{section.2.7}
+\contentsline {section}{\numberline {2.8}Hazardous Materials}{6}{section.2.8}
+\contentsline {section}{\numberline {2.9}Lasers}{6}{section.2.9}
+\contentsline {chapter}{\numberline {3}Hall Specific Equipment}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Overview}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}Checking Tie-in To Machine Fast Shutdown System}{7}{section.3.2}
+\contentsline {section}{\numberline {3.3}Beamline}{7}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Hazards}{8}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Mitigations}{8}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Responsible Personnel}{9}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}HPS Chicane Magnets}{9}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Hazards}{9}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Mitigations}{10}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Responsible Personal}{10}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Target Systems}{10}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Hazards}{10}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Mitigations}{11}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Responsible Personal}{11}{subsection.3.5.3}
+\contentsline {section}{\numberline {3.6}Vacuum Systems}{11}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Hazards}{11}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Mitigations}{11}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Responsible Personal}{12}{subsection.3.6.3}
+\contentsline {section}{\numberline {3.7}Silicon Tracker}{12}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Hazards}{12}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Mitigations}{12}{subsection.3.7.2}
+\contentsline {subsection}{\numberline {3.7.3}Responsible Personal}{13}{subsection.3.7.3}
+\contentsline {section}{\numberline {3.8}Electromagnetic Calorimeter}{13}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}Hazards}{13}{subsection.3.8.1}
+\contentsline {subsection}{\numberline {3.8.2}Mitigations}{14}{subsection.3.8.2}
+\contentsline {subsection}{\numberline {3.8.3}Responsible Personnel}{14}{subsection.3.8.3}
