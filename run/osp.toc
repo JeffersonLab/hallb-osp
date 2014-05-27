@@ -12,27 +12,31 @@
 \contentsline {chapter}{\numberline {3}Hall Specific Equipment}{7}{chapter.3}
 \contentsline {section}{\numberline {3.1}Overview}{7}{section.3.1}
 \contentsline {section}{\numberline {3.2}Checking Tie-in To Machine Fast Shutdown System}{7}{section.3.2}
-\contentsline {section}{\numberline {3.3}Beamline}{7}{section.3.3}
+\contentsline {section}{\numberline {3.3}Beamline}{8}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Hazards}{8}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Mitigations}{8}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Responsible Personnel}{9}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}HPS Chicane Magnets}{9}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Hazards}{9}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Mitigations}{10}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Responsible Personal}{10}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Target Systems}{10}{section.3.5}
+\contentsline {subsection}{\numberline {3.4.2}Mitigations}{9}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Responsible Personnel}{10}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Target System}{10}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Hazards}{10}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Mitigations}{11}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Responsible Personal}{11}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.2}Mitigations}{10}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Responsible Personnel}{11}{subsection.3.5.3}
 \contentsline {section}{\numberline {3.6}Vacuum Systems}{11}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1}Hazards}{11}{subsection.3.6.1}
 \contentsline {subsection}{\numberline {3.6.2}Mitigations}{11}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {3.6.3}Responsible Personal}{12}{subsection.3.6.3}
+\contentsline {subsection}{\numberline {3.6.3}Responsible Personnel}{12}{subsection.3.6.3}
 \contentsline {section}{\numberline {3.7}Silicon Tracker}{12}{section.3.7}
 \contentsline {subsection}{\numberline {3.7.1}Hazards}{12}{subsection.3.7.1}
 \contentsline {subsection}{\numberline {3.7.2}Mitigations}{12}{subsection.3.7.2}
-\contentsline {subsection}{\numberline {3.7.3}Responsible Personal}{13}{subsection.3.7.3}
+\contentsline {subsection}{\numberline {3.7.3}Responsible Personnel}{13}{subsection.3.7.3}
 \contentsline {section}{\numberline {3.8}Electromagnetic Calorimeter}{13}{section.3.8}
-\contentsline {subsection}{\numberline {3.8.1}Hazards}{13}{subsection.3.8.1}
+\contentsline {subsection}{\numberline {3.8.1}Hazards}{14}{subsection.3.8.1}
 \contentsline {subsection}{\numberline {3.8.2}Mitigations}{14}{subsection.3.8.2}
 \contentsline {subsection}{\numberline {3.8.3}Responsible Personnel}{14}{subsection.3.8.3}
+\contentsline {section}{\numberline {3.9}CLAS12 Construction work}{14}{section.3.9}
+\contentsline {subsection}{\numberline {3.9.1}Hazards}{14}{subsection.3.9.1}
+\contentsline {subsection}{\numberline {3.9.2}Mitigations}{15}{subsection.3.9.2}
+\contentsline {subsection}{\numberline {3.9.3}Responsible Personnel}{15}{subsection.3.9.3}

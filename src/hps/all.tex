@@ -5,6 +5,7 @@
 \renewcommand{\dirfig}[0]{hps/figs}
 \renewcommand{\dircur}[0]{hps}
 
+
 \section{Silicon Tracker}
 \indent
 
@@ -14,21 +15,30 @@ The silicon vertex tracker (SVT) is a compact six layer tracking system, less th
 \indent
 
 Hazards to personnel include the high voltage which biases the sensors, and the low current which powers the readout electronics.
-Hazards to the SVT itself include mechanical damage, radiation damage, and overheating. Hazards to the vacuum system could arise from excessive SVT outgassing or coolant leaks.SVT mechanical damage could occur if the top sensors are accidentally driven into the bottom sensors.
-Radiation damage could occur in the SVT  if the sensors are driven too close to the beam, the beam moves into the sensors, the beam interacts upstream to produce excessive radiation, or excessive beam currents create more radiation than can be tolerated.
-Overheating can occur in the SVT  if the cooling system is performing inadequately or if a cooling system leak develops.
+
+Hazards to the SVT itself include mechanical damage, radiation damage, and overheating. Hazards to the vacuum system could arise from excessive SVT outgassing or coolant leaks.
+SVT mechanical damage could occur if the top sensors are accidentally driven into the bottom sensors.
+
+Radiation damage could occur in the SVT  if the sensors are driven too close to the beam, the beam moves into the sensors, the beam interacts upstream to produce excessive radiation, or excessive beam currents create more radiation than can be tolerated.
+
+Overheating can occur in the SVT  if the cooling system is performing inadequately or if a cooling system leak develops.
 
 \subsection{Mitigations}
 \indent
 
-Hazards to personnel are mitigated by turning off HV and LV power before disconnecting cables or working on the sensors and internal electronics.Hazards to the Hall B vacuum system have been mitigated by extensive testing of all components to ensure low-outgassing rates, construction of the SVT and electronics in a clean room, and tests of the cooling system to high pressures to prove leak-tightness. The coolant used, water glycol, would not cause irreparable damage to the vacuum system if a leak occurred. If the system pressure  increases, the coolant supply is halted.
-Possible mechanical damage has been mitigated by designing the channels which hold the sensors to touch before any modules would touch. Software limits and  limit switches on the motion controllers also prevent the sensors from moving into each other and too close to the beam.
+Hazards to personnel are mitigated by turning off HV and LV power before disconnecting cables or working on the sensors and internal electronics.
+Hazards to the Hall B vacuum system have been mitigated by extensive testing of all components to ensure low-outgassing rates, construction of the SVT and electronics in a clean room, and tests of the cooling system to high pressures to prove leak-tightness. The coolant used, water glycol, would not cause irreparable damage to the vacuum system if a leak occurred. If the system pressure  increases, the coolant supply is halted.
+
+Possible mechanical damage has been mitigated by designing the channels which hold the sensors to touch before any modules would touch. Software limits and  limit switches on the motion controllers also prevent the sensors from moving into each other and too close to the beam.
 
 Radiation damage from the beams is mitigated in several steps. First, beam size and halo must conform to beam requirements before beams are passed through the detector. Second, the beams are centered between the top and bottom sections of the SVT. Third, an upstream collimator is aligned with the "centered" beam position to intercept the beam if it moves off nominal position. Fourth, beam halo monitors sense a rise in backgrounds if the beam moves off nominal position, activating the FSD and removing the power permissive to the SVT. Fifth, precision movers position the SVT layers precise and safe distances from the beam . Finally, beam currents and target thicknesses are carefully chosen to avoid over-radiating the silicon sensors.
 
 Overheating is mitigated by requiring good coolant flow, proper coolant temperature, good vacuum (assuring no coolant leakage), and sensor temperature in range  in the interlock for SVT HV and LV power. 
 
-\subsection{Responsible Personal}
+\subsection{Responsible Personnel}
+\indent
+
+Individuals responsible for the system are:
 
  \begin{table}[!htb]
  \centering
@@ -40,34 +50,73 @@ Omar Moreno & UCSC & && Contact \\ \hline
 Sho Uemura&SLAC& && Contact \\ \hline
 Per Hansson&SLAC& && Contact \\ \hline
  \end{tabular}
-\caption{ Personal responsible for the silicon tracker.} 
+\caption{ Personnel responsible for the silicon tracker.} 
 \label{tb:beam}
 \end{table}
+
 
 
 \section{Electromagnetic Calorimeter}
 \indent
 
 The Electromagnetic Calorimeter (ECal) consists of $442$ lead-tungstate (PbWO$_4$) crystals with avalanche photodiode (APD) 
-readout and amplifiers enclosed inside a temperature controlled enclosure. There two identical ECal modules positioned above and below of the beam plane. In order operate calorimeter modules high voltage and low voltage are supplied to each channel. The high voltage is $<450$ V and $<1$ mA. The required low voltage is $\pm 5$ V for preamplifier boards.   
+readout and amplifiers enclosed inside a temperature controlled enclosure. There are two identical ECal modules positioned above and below of the beam plane. In order to operate the calorimeter modules,  high voltage and low voltage are supplied to each channel. The high voltage is $<450$ V and $<1$ mA. The required low voltage is $\pm 5$ V for preamplifier boards. Constant temperature inside the enclosure is kept by running a coolant through the copper pipes that are integrated into the enclosure using laboratory chiller. Cooling system should provide temperature stability at the level of $1^\circ$C.
 
 \subsection{Hazards} 
 \indent
 
-Hazard associated with this device are electrical shock or damage to the APDs if enclosure is opened without HV on.
+Hazards associated with this device are electrical shock or damage to the APDs if the enclosure is opened with the  HV on. There is also hazard associated with coolant leak that may damage preamplifier boards.
 
 \subsection{Mitigations}
 \indent
 
-Always turn HV off before opening the enclosure or disconnecting HV cables.
+Whenever any work has to be done on the calorimeter, independent it will be opened or not, always turn HV and LV off. Turn chiller off if enclosure will be opened for maintenance. Any large (more than couple of degrees in C) must be investigated to make sure that there are no leaks.   
+
+
 
 \begin{safetyen}{10}{15}
 \subsection{Responsible  Personnel} 
 \end{safetyen}
 The authorized personnel is shown in table \ref{tab:hps:personnel}.
-\begin{namestab}{tab:hps:personnel}{HPS calorimeter: authorized personnel}{%
+\begin{namestab}{tab:hps:personnel}{HPS  electromagnetic calorimeter: responsible personnel}{%
       HPS calorimeter: authorized personnel.}
   \StepanStepanyan{\em 1st Contact}
   \RaphaelDupre{\em  2nd Contact}
 \end{namestab}
+
+
+\section{CLAS12 Construction work}
+\indent
+
+The main 12 GeV activity in Hall-B during the HPS engineering run will be assembly of the CLAS12 Torus magnet. Beam running would occur during evenings, nights, and weekends or during other periods when it would not conflict with the regularly scheduled assembly of the CLAS12 Torus coils.
+
+\subsection{Hazards} 
+\indent
+
+There are no personal hazards associated with the running over evenings, nights, and weekends, and continue with torus assembly during the normal work hours. The only hazard is possible delays of start of the torus work after beam the delivery due to possible activation of beamline parts close to the torus assembly fixtures.
+ 
+\subsection{Mitigations}
+\indent
+
+Every time Hall will switch from beam running to torus assembly, a fully survey of the hall will be conducted and Hall will be brought to "Restricted Access". Normally this will happen very early in the morning of work day (6am). If elevated radiation near torus assembly fixtures are found, work on torus must be delayed until conditions are acceptable. 
+
+However, we do not expect any excess radiation in the Hall or activation of any beam line components near the torus assembly area. The HPS  target is located $\sim20$ meters upstream of the assembly area and only tuned electron beam, couple of hundred micron wide, will be transported in vacuum through hall to the target. If beam conditions are not acceptable, which may result excess radiation, beam tune will be performed. Every time beam tune is required the Hall-B tagger magnet will be energized and beam will be dumped on the Hall-B tagger dump, shielded hole in the floor $\sim 15$ meters upstream of the torus assembly area. 
+
+\subsection{Responsible Personnel}
+\indent
+
+Individuals responsible for the coordination of the torus assembly and HPS engineering run:
+
+\begin{table}[!htb]
+ \centering
+ \begin{tabular}{|c|c|c|c|c|}
+\hline
+ Name&Dept.&Phone&email&Comments \\ \hline
+PDL & Hall-B&&&1nd contact \\ \hline
+S. Stepanyan & Hall-B&&stepanya@jlab.org&contact \\ \hline
+D. Kashy & Hall-B&&Kashy@jlab.org&contact \\ \hline
+ \end{tabular}
+\caption{ Personnel responsible for coordination of the HPS run and the torus assembly.} 
+\label{tb:beam}
+\end{table}
 

@@ -1,10 +1,47 @@
 \infolevone{
-\chapter[Target Chamber]{Target Chamber}
-
-The target chamber is designed so that....
-
-When the scattering chamber is under vacuum, there is a potential
-danger of window rupture.
-The loud noise from the rupture could hurt
-one's ears if not protected. 
+\chapter[Target System]{Target System}
 }
+
+\infoleveqnull{\section{Target System}}
+
+The HPS target system consists of several solid material foils mounted on a target ladder. The bottom edge of the foils mounted on the ladder is free-standing so there
+is no thick support frame to trip the beam when the target is inserted. Target position is remotely  adjustable vertically allowing different targets to be inserted. The support
+frame on the beam-right side of the target is made thin enough to
+prevent excessive flux of secondaries and radiation damage to the silicon detector in the event of an errant
+beam,  caused, for example, by an chicane magnet trip which will move beam to the right.
+               
+\subsection{Hazards} 
+
+\indent
+
+There are hazards related to moving the target frame into the beam or overheating the target foils. The stepping motor linear
+actuator will be operated using EPICS controls.  The GUI for operation of the target will have preset coordinates for each target foil.  
+The tungsten targets are intended to operate with beam currents up to $500$ nA, which produce strong local heating. The strength of tungsten drops by an order of magnitude with temperature increases in the range of 1000 C. In addition, the material re-crystallizes above
+this range, which increases the tendency for cracking where thermal expansion has caused temporary dimpling. 
+
+\subsection{Mitigations}
+
+\indent
+
+There will be limit switches (hard stops) that will prevent the motion of the target ladder outside of allowed range if EPICS set values are wrong. To keep the temperature rise less than about 1000 degrees, we adjust the optics to produce an adequately large beam spot and limit the maximum current incident on the target. There will be overall beam current limit of $500$ nA for the experiment.
+
+\subsection{Responsible Personnel}
+
+\indent
+
+The target system will be maintained by the Hall B engineering group.  
+
+ \begin{table}[!htb]
+ \centering
+ \begin{tabular}{|c|c|c|c|c|}
+\hline
+ Name&Dept.&Phone&email&Comments \\ \hline
+ Tech-on-call & Hall-B&&& 1st contact  \\ \hline
+ D. Tilles & Hall-B&&tilles@jlab.org&2nd contact \\ \hline
+C. Field& SLAC&&sargon@slac.stanford.edu&contact \\ \hline
+ \end{tabular}
+\caption{ Personnel responsible for the target.} 
+\label{tb:beam}
+\end{table}
+
+
