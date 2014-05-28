@@ -6,10 +6,10 @@ fi
 
 ./scripts/config osp 4
 cd run; make; cd ..
-cp run/osp.pdf version/hallb-osp-level4.pdf
+cp run/osp.pdf version/hallb-oper.pdf
 
 ./scripts/config osp 0
 cd run; make; cd ..
-cp run/osp.pdf version/hallb-osp-level0.pdf
+cp run/osp.pdf version/hallb-esad.pdf
 
 
