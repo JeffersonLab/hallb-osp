@@ -1,0 +1,49 @@
+
+\section{Silicon Tracker}
+\indent
+
+The silicon vertex tracker (SVT) is a compact six layer tracking system, less than a meter long, which uses silicon microstrip detectors to measure charged particle momentum and decay vertex positions. Each layer, top or bottom, consists of axial and stereo silicon sensors. The SVT  is divided into top and bottom sections  to avoid direct interactions with the beam and degraded electrons, and it resides in vacuum, to eliminate beam gas backgrounds. The first three layers can be moved close to the beam, to maximize acceptance for heavy photons. A cooling system removes heat from the electronics, and cools the sensors to improve their radiation hardness.  The sensors are readout with onboard electronics which pass signals to Front End boards for digitization and transmission out of the vacuum enclosure.
+
+\subsection{Hazards} 
+\indent
+
+Hazards to personnel include the high voltage which biases the sensors, and the low current which powers the readout electronics.
+
+Hazards to the SVT itself include mechanical damage, radiation damage, and overheating. Hazards to the vacuum system could arise from excessive SVT outgassing or coolant leaks.
+SVT mechanical damage could occur if the top sensors are accidentally driven into the bottom sensors.
+
+Radiation damage could occur in the SVT  if the sensors are driven too close to the beam, the beam moves into the sensors, the beam interacts upstream to produce excessive radiation, or excessive beam currents create more radiation than can be tolerated.
+
+Overheating can occur in the SVT  if the cooling system is performing inadequately or if a cooling system leak develops.
+
+\subsection{Mitigations}
+\indent
+
+Hazards to personnel are mitigated by turning off HV and LV power before disconnecting cables or working on the sensors and internal electronics.
+Hazards to the Hall B vacuum system have been mitigated by extensive testing of all components to ensure low-outgassing rates, construction of the SVT and electronics in a clean room, and tests of the cooling system to high pressures to prove leak-tightness. The coolant used, water glycol, would not cause irreparable damage to the vacuum system if a leak occurred. If the system pressure  increases, the coolant supply is halted.
+
+Possible mechanical damage has been mitigated by designing the channels which hold the sensors to touch before any modules would touch. Software limits and  limit switches on the motion controllers also prevent the sensors from moving into each other or too close to the beam.
+
+Radiation damage from the beams is mitigated in several steps. First, beam size and halo must conform to beam requirements before beams are passed through the detector. Second, the beams are centered between the top and bottom sections of the SVT. Third, an upstream collimator is aligned with the "centered" beam position to intercept the beam if it moves off nominal position. Fourth, beam halo monitors sense a rise in backgrounds if the beam moves off nominal position, activating the FSD and removing the power permissive to the SVT. Fifth, precision movers position the SVT layers precise and safe distances from the beam . Finally, beam currents and target thicknesses are carefully chosen to avoid over-radiating the silicon sensors.
+
+Overheating is mitigated by requiring good coolant flow, proper coolant temperature, good vacuum (assuring no coolant leakage), and sensor temperature in range  in the interlock for SVT HV and LV power. 
+
+\subsection{Responsible personnel}
+\indent
+
+Individuals responsible for the system are:
+
+ \begin{table}[!htb]
+ \centering
+ \begin{tabular}{|c|c|c|c|c|}
+\hline
+ Name&Dept.&Phone&email&Comments \\ \hline
+Tim Nelson& SLAC&&& First contact \\ \hline
+Omar Moreno & UCSC & && Contact \\ \hline
+Sho Uemura&SLAC& && Contact \\ \hline
+Per Hansson&SLAC& && Contact \\ \hline
+ \end{tabular}
+\caption{ Personnel responsible for the silicon tracker.} 
+\label{tb:svt}
+\end{table}
+

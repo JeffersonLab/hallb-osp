@@ -1,0 +1,10 @@
+This directory has documentation copied from HPS detector.
+To call the prad version replace hps/all by prad/all in the file ../osp/main.tex
+Edit files
+prad/intro
+prad/beam
+prad/hpsmag
+prad/tgtcham
+prad/vacuum
+prad/trk
+prad/pid

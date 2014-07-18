@@ -1,0 +1,57 @@
+% Operations Manual Chapter Title 
+\infolevone{
+\chapter[General Description]{General Description
+\footnote{Authors: S.Stepanyan \email{stepanya@jlab.org}}
+\section{Introduction}
+\label{sec:beam-intro}
+}}
+
+% ESAD Section Title
+\infolevone{\part{Beamline}}
+
+\infoleveqnull{\section{Beamline}}
+
+The control and measurement equipment along the Hall B beamline consists of various elements necessary to transport beam with required specifications onto the production target and the beam dump, and simultaneously measure the properties of the beam relevant to the successful implementation of the physics program in Hall B. 
+
+The beamline in the Hall provides the interface between the CEBAF accelerator and the experimental hall. All work on the beamline must be coordinated with both physics division and accelerator division in order to ensure safe and reliable transport of the electron beam to the dump.
+
+\subsection{Hazards} 
+
+Along the beamline various hazards can be found. These include radiation areas, vacuum windows, high voltage, and magnetic fields.
+
+\subsection{Mitigations}
+
+\indent
+
+All magnets (dipoles, quadruples, sextuples, beam correctors) and beam diagnostic devices (BPMs, scanners, beam loss monitors, viewers) necessary to transport and monitor the beam are controlled by Machine Control Center (MCC) through EPICS \cite{EPICSwww}, except for specific elements which are addressed in the subsequent sections. The detailed safety operational procedures for the Hall B beamline should be essentially the same as the one for the CEBAF machine and beamline.
+
+Personnel who need to work near or around the beamline should keep in mind the potential hazards:
+\begin{itemize}
+\item Radiation "Hot Spots" - marked by ARM of RadCon personnel,
+\item Vacuum in beamline tubes and other vessels,
+\item Thin windowed vacuum enclosures (e.g. the scattering chamber),
+\item Electric power hazards in the vicinity of magnets, and 
+\item Conventional hazards (fall hazard, crane hazard, etc.). 
+\end{itemize} 
+
+These hazards are noted by signs and the most hazardous areas along the beamline are roped off to restrict access when operational (e.g. around the HPS chicane magnets). Signs are posted by RadCon for any hot spots. Survey of the beamline and around it will be performed before work is done on the beam line or around. The connection of leads to magnets have plastic covers for electrical safety. Any work around the magnets will require de-energizing the magnets. Energized magnets are noted by read flashing beacons. Any work on the magnets requires the "Lock and Tag" procedures \cite{EHScebaf}.  
+
+\noindent{}Additional safety information is available in the following documents:
+\begin{list}{--}{\setlength{\itemsep}{-0.15cm}}
+  \item EH\&S Manual~\cite{EHScebaf};
+  \item PSS Description Document~\cite{PSScebaf}
+  \item Accelerator Operations Directive~\cite{AODcebaf};
+\end{list}
+
+
+\begin{safetyen}{10}{15}
+\subsection{Responsible  Personnel} 
+\end{safetyen}
+The beamline requires both accelerator and physics personnel to maintain and operate. It is very important that both groups stay in contact with each other to coordinate any work on the Hall B beamline. The authorized personnel is shown in table \ref{tab:beam:personnel}.
+\begin{namestab}{tab:beam:personnel}{ Hall B beamline: authorized personnel}{%
+       Hall B beamline: authorized personnel.}
+  \FXGirod{\em 1st Contact}
+  \StepanStepanyan{\em 2nd Contact}
+  \MichaelTiefenback{\em  Contact  to Hall-B }
+  \HariAreti{\em  Contact to Physics}
+\end{namestab}
