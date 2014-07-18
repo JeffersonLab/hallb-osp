@@ -2,11 +2,10 @@ This is BibTeX, Version 0.99c (Web2C 7.5.6)
 The top-level auxiliary file: osp.aux
 The style file: unsrtmod.bst
 Database file #1: bibl/jlab_manuals.bib
-Warning--I didn't find a database entry for "ehs"
 Warning--empty title in inst:JLab
 You've used 5 entries,
             1896 wiz_defined-function locations,
-            490 strings with 4388 characters,
+            489 strings with 4385 characters,
 and the built_in function-call counts, 612 in all, are:
 = -- 54
 > -- 5
@@ -45,4 +44,4 @@ warning$ -- 1
 while$ -- 0
 width$ -- 6
 write$ -- 52
-(There were 2 warnings)
+(There was 1 warning)

@@ -23,19 +23,19 @@
 \contentsline {section}{\numberline {3.5}Target System}{10}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Hazards}{10}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}Mitigations}{10}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Responsible Personnel}{11}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.3}Responsible personnel}{11}{subsection.3.5.3}
 \contentsline {section}{\numberline {3.6}Vacuum Systems}{11}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1}Hazards}{11}{subsection.3.6.1}
 \contentsline {subsection}{\numberline {3.6.2}Mitigations}{11}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {3.6.3}Responsible Personnel}{12}{subsection.3.6.3}
+\contentsline {subsection}{\numberline {3.6.3}Responsible personnel}{12}{subsection.3.6.3}
 \contentsline {section}{\numberline {3.7}Silicon Tracker}{12}{section.3.7}
 \contentsline {subsection}{\numberline {3.7.1}Hazards}{12}{subsection.3.7.1}
 \contentsline {subsection}{\numberline {3.7.2}Mitigations}{12}{subsection.3.7.2}
-\contentsline {subsection}{\numberline {3.7.3}Responsible Personnel}{13}{subsection.3.7.3}
+\contentsline {subsection}{\numberline {3.7.3}Responsible personnel}{13}{subsection.3.7.3}
 \contentsline {section}{\numberline {3.8}Electromagnetic Calorimeter}{13}{section.3.8}
 \contentsline {subsection}{\numberline {3.8.1}Hazards}{14}{subsection.3.8.1}
 \contentsline {subsection}{\numberline {3.8.2}Mitigations}{14}{subsection.3.8.2}
-\contentsline {subsection}{\numberline {3.8.3}Responsible Personnel}{14}{subsection.3.8.3}
+\contentsline {subsection}{\numberline {3.8.3}Responsible personnel}{14}{subsection.3.8.3}
 \contentsline {section}{\numberline {3.9}CLAS12 Construction work}{14}{section.3.9}
 \contentsline {subsection}{\numberline {3.9.1}Hazards}{14}{subsection.3.9.1}
 \contentsline {subsection}{\numberline {3.9.2}Mitigations}{15}{subsection.3.9.2}
