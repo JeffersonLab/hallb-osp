@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2013.10.22)  16 JUL 2014 17:54
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2013.11.19)  18 JUL 2014 16:41
 entering extended mode
  %&-line parsing enabled.
 **osp
@@ -260,41 +260,38 @@ Chapter 1.
 Chapter 2.
 [4
 
-] [5] [6]
+] [5]) (/group/gpd/12gev/ESAD/hallb-osp/src/hps/all.tex
+(/group/gpd/12gev/ESAD/hallb-osp/src/hps/intro.tex [6]
 Chapter 3.
-) (/group/gpd/12gev/ESAD/hallb-osp/src/introduction/all.tex
-(/group/gpd/12gev/ESAD/hallb-osp/src/introduction/b-intro.tex))
-(/group/gpd/12gev/ESAD/hallb-osp/src/beamline/all.tex
-(/group/gpd/12gev/ESAD/hallb-osp/src/beamline/beam.tex [7
+) (/group/gpd/12gev/ESAD/hallb-osp/src/hps/beam.tex [7
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 28.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 30.
 
 (/usr/share/texmf/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
  [8]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 50.
+(Font)              <10.95> on input line 52.
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 []\OT1/cmr/m/it/10.95 Contact to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 []\OT1/cmr/m/it/10.95 Contact to
  []
 
 
-Overfull \hbox (21.95644pt too wide) in paragraph at lines 50--55
+Overfull \hbox (21.95644pt too wide) in paragraph at lines 52--57
  [][] 
  []
 
-)) (/group/gpd/12gev/ESAD/hallb-osp/src/hps/all.tex
-(/group/gpd/12gev/ESAD/hallb-osp/src/hps/hpsmag.tex
+) (/group/gpd/12gev/ESAD/hallb-osp/src/hps/hpsmag.tex
 
 LaTeX Warning: Citation `ehs' on page 9 undefined on input line 24.
 
@@ -337,8 +334,8 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3363 strings out of 256216
- 46865 string characters out of 1917071
+ 3355 strings out of 256216
+ 46499 string characters out of 1917071
  105563 words of memory out of 1500000
  6493 multiletter control sequences out of 10000+200000
  11544 words of font info for 40 fonts, out of 1200000 for 2000
@@ -352,7 +349,7 @@ hare/texmf/fonts/type1/bluesky/cm/cmsl12.pfb></usr/share/texmf/fonts/type1/blue
 sky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/shar
 e/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky
 /cm/cmti12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmtt12.pfb>
-Output written on osp.pdf (17 pages, 155961 bytes).
+Output written on osp.pdf (17 pages, 155960 bytes).
 PDF statistics:
  380 PDF objects out of 1000 (max. 8388607)
  57 named destinations out of 1000 (max. 131072)
